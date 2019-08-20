@@ -454,8 +454,6 @@ void step_back(unsigned int step)
   }
 }
 
-// add by RegisHsu
-
 void body_left(int i)
 {
   set_site(0, site_now[0][0] + i, KEEP, KEEP);
